@@ -8,5 +8,5 @@
 - docProps/core.xml
 
 [Usage]
-C:\DocsMetaParser.exe -f C:\filename.docx
-C:\DocsMetaParser.exe  -d "C:\Document folder"
+- C:\DocsMetaParser.exe -f C:\filename.docx
+- C:\DocsMetaParser.exe  -d "C:\Document folder"
