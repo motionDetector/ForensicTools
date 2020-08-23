@@ -11,7 +11,7 @@
 - Parse a file (-f)
 - Parse files in directory (-d)
 - Parse files recursively in directory (-r)
-- Save results as CSV file format (-csv_
+- Save results as CSV file format (-csv)
 
 [Examples]
 - C:\DocsMetaParser.exe -f C:\filename.docx 
