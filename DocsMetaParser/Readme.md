@@ -8,7 +8,7 @@
 - docProps/core.xml
 
 [Usage]
-- C:\DocsMetaParser.exe -f C:\filename.docx (Parse a file)
-- C:\DocsMetaParser.exe -d C:\DocumentFolder    (Parse files in directory, not recursively)
-- C:\DocsMetaParser.exe -r C:\ (Parse files recursively in directory)
-- C:\DocsMetaParser.exe -csv -r C:\ (Export results as csv file)
+- C:\DocsMetaParser.exe -f C:\filename.docx 
+- C:\DocsMetaParser.exe -d C:\DocumentFolder    
+- C:\DocsMetaParser.exe -r C:\ 
+- C:\DocsMetaParser.exe -csv -r C:\ 
