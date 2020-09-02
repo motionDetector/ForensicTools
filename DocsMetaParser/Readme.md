@@ -24,6 +24,6 @@
 - C:\DocsMetaParser.exe -csv -r C:\ 
 
 [Notice]
-- You need to import csv file as UTF-8 option in Excel program to see hangul text
+- You may need to import csv file as UTF-8 option in Excel program to see decoded text
 - There may be strings that are not cleanly decoded.
 - It does not explore the structure of the OLE file
