@@ -7,7 +7,7 @@
 - docProps/app.xml (docx, pptx, xlsx)
 - docProps/core.xml (docx, pptx, xlsx)
 - a part of Summary Information stream (doc, ppt, xls)
-- a part of Document Summary Information stream (doc, ppt, xls)
+- a part of Document Summary Information stream (doc, ppt, xls) // It does not explore the structure of the OLE file.
 - xmpmeta (pdf)
 - plain text (pdf)
 
