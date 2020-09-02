@@ -16,7 +16,7 @@
 - Parse files in directory (-d)
 - Parse files recursively in directory (-r)
 - Save results as CSV file format (-csv)
-＃ You need to import csv file as UTF-8 option in Excel program to see hangul text.
+#You need to import csv file as UTF-8 option in Excel program to see hangul text.
 
 [Examples]
 - C:\DocsMetaParser.exe -f C:\filename.docx 
