@@ -18,10 +18,11 @@
 - Save results as CSV file format (-csv)
 
 [Examples]
-- C:\DocsMetaParser.exe -f C:\filename.docx 
-- C:\DocsMetaParser.exe -d C:\DocumentFolder    
-- C:\DocsMetaParser.exe -r C:\ 
-- C:\DocsMetaParser.exe -csv -r C:\ 
+  C:\DocsMetaParser.exe -f C:\filename.docx 
+  C:\DocsMetaParser.exe -d C:\DocumentFolder    
+  C:\DocsMetaParser.exe -r C:\ 
+  C:\DocsMetaParser.exe -csv -r C:\ 
+  
 
 [Notice]
 - You may need to import csv file as UTF-8 option in Excel program to see decoded text
