@@ -518,6 +518,7 @@ func readPdfFile(file string) {
 	docMeta.aggregationType = pdfMeta[pdfAggregationType]
 	docMeta.publicationName = pdfMeta[pdfPublicationName]
 	docMeta.edition = pdfMeta[pdfEdition]
+	docMeta.isbn = pdfMeta[pdfISBN]
 	docMeta.copyright = pdfMeta[pdfCopyRight]
 	docMeta.coverDisplayDate = pdfMeta[pdfCoverDisplayDate]
 	docMeta.originalDocumentID = pdfMeta[pdfOriginalDocumentID]
