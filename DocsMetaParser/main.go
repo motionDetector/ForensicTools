@@ -564,6 +564,8 @@ func readDocFile(file string) {
 	idx = bytes.Index(b, []byte("\x02\xD5\xCD\xD5\x9C\x2E\x1B\x10\x93\x97\x08\x00\x2B\x2C\xF9\xAE"))
 	if idx != -1 && len(b) > idx+700 {
 		docSmry = b[idx-28 : idx+700]
+	} else {
+		return
 	}
 	idx = bytes.Index(smry, []byte("\xFE\xFF\x00\x00"))
 	if idx != -1 && len(smry) > idx {
