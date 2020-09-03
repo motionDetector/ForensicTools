@@ -60,6 +60,7 @@ func main() {
 func parseFile(file string) {
 	_, err := ioutil.ReadFile(file)
 	checkFatalErr(err)
+	printStartTime(st)
 	if chk := checkOxmlExt(file); chk {
 		if chk := oxmlHeaderCheck(file); chk {
 			readOxmlFile(file)
