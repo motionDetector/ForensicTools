@@ -557,15 +557,15 @@ func readDocFile(file string) {
 	zero := time.Date(1601, 01, 01, 00, 00, 00, 00, time.UTC)
 	idx = bytes.Index(b, []byte("\xE0\x85\x9F\xF2\xF9\x4F\x68\x10\xAB\x91\x08\x00\x2B\x27\xB3\xD9"))
 	if idx != -1 && len(b) > idx+512 {
-		smry = b[idx-28 : idx+700]
+		smry = b[idx-28 : idx+512]
 		f1 = smry[80:81]
 		f2 = smry[96:97]
 	} else {
 		return
 	}
 	idx = bytes.Index(b, []byte("\x02\xD5\xCD\xD5\x9C\x2E\x1B\x10\x93\x97\x08\x00\x2B\x2C\xF9\xAE"))
-	if idx != -1 && len(b) > idx+700 {
-		docSmry = b[idx-28 : idx+700]
+	if idx != -1 && len(b) > idx+300 {
+		docSmry = b[idx-28 : idx+300]
 	} else {
 		return
 	}
