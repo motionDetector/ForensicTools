@@ -204,13 +204,14 @@ func readOxmlFile(file string) {
 			_, err = rFo.Read(b)
 			checkErr(err)
 			fileCoreMap := map[string][]byte{
-				oxmlTitle:          []byte("\x3C\x64\x63\x3A\x74\x69\x74\x6C\x65\x3E"),                                                                                                                                         // "<dc:title>"
-				oxmlCreator:        []byte("\x3C\x64\x63\x3A\x63\x72\x65\x61\x74\x6F\x72\x3E"),                                                                                                                                 // "<dc:creator>"
-				oxmlLastModifiedBy: []byte("\x3C\x63\x70\x3A\x6C\x61\x73\x74\x4D\x6F\x64\x69\x66\x69\x65\x64\x42\x79\x3E"),                                                                                                     // "<cp:lastModifiedBy>"
-				oxmlRevision:       []byte("\x3C\x63\x70\x3A\x72\x65\x76\x69\x73\x69\x6F\x6E\x3E"),                                                                                                                             // "<cp:revision>"
-				oxmlLastPrinted:    []byte("\x3C\x63\x70\x3A\x6C\x61\x73\x74\x50\x72\x69\x6E\x74\x65\x64\x3E"),                                                                                                                 // "<cp:lastPrinted>"
-				oxmlCreated:        []byte("\x3C\x64\x63\x74\x65\x72\x6D\x73\x3A\x63\x72\x65\x61\x74\x65\x64\x20\x78\x73\x69\x3A\x74\x79\x70\x65\x3D\x22\x64\x63\x74\x65\x72\x6D\x73\x3A\x57\x33\x43\x44\x54\x46\x22\x3E"),     // "<dcterms:created xsi:type=\"dcterms:W3CDTF\">"
-				oxmlModified:       []byte("\x3C\x64\x63\x74\x65\x72\x6D\x73\x3A\x6D\x6F\x64\x69\x66\x69\x65\x64\x20\x78\x73\x69\x3A\x74\x79\x70\x65\x3D\x22\x64\x63\x74\x65\x72\x6D\x73\x3A\x57\x33\x43\x44\x54\x46\x22\x3E"), // "<dcterms:modified xsi:type=\"dcterms:W3CDTF\">"
+				oxmlTitle:          []byte("\x3C\x64\x63\x3A\x74\x69\x74\x6C\x65\x3E"),                                                                                                                                         
+				oxmlCreator:        []byte("\x3C\x64\x63\x3A\x63\x72\x65\x61\x74\x6F\x72\x3E"),
+				oxmlDesciption:     []byte("\x3C\x64\x63\x3A\x64\x65\x73\x63\x72\x69\x70\x74\x69\x6F\x6E\x3E"),    
+				oxmlLastModifiedBy: []byte("\x3C\x63\x70\x3A\x6C\x61\x73\x74\x4D\x6F\x64\x69\x66\x69\x65\x64\x42\x79\x3E"),                                                                                                    
+				oxmlRevision:       []byte("\x3C\x63\x70\x3A\x72\x65\x76\x69\x73\x69\x6F\x6E\x3E"),                                                                                                                             
+				oxmlLastPrinted:    []byte("\x3C\x63\x70\x3A\x6C\x61\x73\x74\x50\x72\x69\x6E\x74\x65\x64\x3E"),                                                                                                                 
+				oxmlCreated:        []byte("\x3C\x64\x63\x74\x65\x72\x6D\x73\x3A\x63\x72\x65\x61\x74\x65\x64\x20\x78\x73\x69\x3A\x74\x79\x70\x65\x3D\x22\x64\x63\x74\x65\x72\x6D\x73\x3A\x57\x33\x43\x44\x54\x46\x22\x3E"),     
+				oxmlModified:       []byte("\x3C\x64\x63\x74\x65\x72\x6D\x73\x3A\x6D\x6F\x64\x69\x66\x69\x65\x64\x20\x78\x73\x69\x3A\x74\x79\x70\x65\x3D\x22\x64\x63\x74\x65\x72\x6D\x73\x3A\x57\x33\x43\x44\x54\x46\x22\x3E"), 
 			}
 			for k, v := range fileCoreMap {
 				if chk := bytes.Contains(b, v); !chk {
@@ -231,6 +232,7 @@ func readOxmlFile(file string) {
 	docMeta.company = oxmlMeta[oxmlCompany]
 	docMeta.title = oxmlMeta[oxmlTitle]
 	docMeta.creator = oxmlMeta[oxmlCreator]
+	docMeta.description = oxmlMeta[oxmlDesciption]
 	docMeta.lastModifiedBy = oxmlMeta[oxmlLastModifiedBy]
 	docMeta.revision = oxmlMeta[oxmlRevision]
 	docMeta.created = oxmlMeta[oxmlCreated]
@@ -3728,6 +3730,7 @@ func printOxmlDoc(docMeta oxmlDocsMeta) {
 	fmt.Println("Revision:", docMeta.revision)
 	fmt.Println("LastPrinted:", docMeta.lastPrinted)
 	fmt.Println("Title:", docMeta.title)
+	fmt.Println("Description:", docMeta.description)
 	fmt.Println("Creator:", docMeta.creator)
 	fmt.Println("Created:", docMeta.created)
 	fmt.Println("Modified:", docMeta.modified)
@@ -3865,6 +3868,7 @@ var (
 	oxmlLastPrinted          string
 	oxmlCreated              string
 	oxmlModified             string
+	oxmlDesciption           string
 	fileApp                  = "docProps/app.xml"
 	fileCore                 = "docProps/core.xml"
 )
@@ -3947,6 +3951,7 @@ type oxmlDocsMeta struct {
 	appVersion           string
 	winVersion           string
 	company              string
+	description          string
 	fileName             string
 	fileCreationTime     string
 	fileAccessTime       string
