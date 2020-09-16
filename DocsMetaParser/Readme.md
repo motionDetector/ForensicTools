@@ -28,3 +28,5 @@
 - You may need to import csv file as UTF-8 option in Excel program to see decoded text
 - There may be strings that are not cleanly decoded
 - It does not explore the structure of the OLE file (just parse a part of stream)
+
+![image](https://user-images.githubusercontent.com/69110090/93313666-ba480200-f843-11ea-8072-60716d9f61d3.png)
