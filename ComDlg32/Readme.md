@@ -6,7 +6,7 @@
 - HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\CIDSizeMRU
 
 [Item]
-- Number
+- Number  
 - Program name
 - Value
 
