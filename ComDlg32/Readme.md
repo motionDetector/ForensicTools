@@ -12,7 +12,7 @@
 - List of executed program path, default open/save path
 - OS: Windows 10 64Bit
 - Source:  HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\FirstFolder
-- Item: Program path, Default open/save path, Value
+- Item: Number, Program path, Default open/save path, Value
 - Screenshot
 
 ![image](https://user-images.githubusercontent.com/69110090/93499305-c8824500-f94d-11ea-8411-6ab0078ddabe.png)
