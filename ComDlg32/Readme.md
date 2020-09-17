@@ -15,4 +15,5 @@
 - Item: Program path, Default open/save path, Value
 - Screenshot
 
-![image](https://user-images.githubusercontent.com/69110090/93483201-8cde7f80-f93b-11ea-8173-3f94268e8392.png)
+![image](https://user-images.githubusercontent.com/69110090/93499305-c8824500-f94d-11ea-8411-6ab0078ddabe.png)
+
