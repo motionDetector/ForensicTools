@@ -11,7 +11,7 @@
 [ComDlg32FirstFolderView]
 - List of executed program path, default open/save path
 - OS: Windows 10 64Bit
-- Source:  HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\CIDSizeMRU
+- Source:  HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\FirstFolder
 - Item: Program path, Default open/save path, Value
 - Screenshot
 
