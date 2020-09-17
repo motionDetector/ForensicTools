@@ -1,7 +1,7 @@
 [DocsMetaParser]
 - Parsing Metadata of Documents.
 - Supported extension: pdf, docx, pptx, xlsx, doc, ppt, xls
-- OS: Windows 10
+- OS: Windows 10 64bit
 
 [Source]
 - docProps/app.xml (docx, pptx, xlsx)
