@@ -28,4 +28,5 @@ HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\La
 - Item: Number, Program name, Value, Last vistited open/save path
 - Screenshot
 
-![image](https://user-images.githubusercontent.com/69110090/93613274-9b946780-fa0b-11ea-85bc-3a5e442c8410.png)  
+![image](https://user-images.githubusercontent.com/69110090/93660365-118ae400-fa89-11ea-89a2-8207290cee62.png)  
+
