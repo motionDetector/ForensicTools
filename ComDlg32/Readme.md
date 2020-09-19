@@ -38,4 +38,5 @@ HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\La
 - Item: Number, ext, Value, file name, path
 - Screenshot
 
-![image](https://user-images.githubusercontent.com/69110090/93660563-3da76480-fa8b-11ea-802a-4ce190590bd1.png)  
+![image](https://user-images.githubusercontent.com/69110090/93660601-bc040680-fa8b-11ea-873c-e797fa3241e9.png)  
+
