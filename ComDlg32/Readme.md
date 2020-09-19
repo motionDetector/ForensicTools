@@ -16,7 +16,8 @@
 - Item: Number, Program path, Default open/save path, Value
 - Screenshot
 
-![image](https://user-images.githubusercontent.com/69110090/93499593-29118200-f94e-11ea-854e-f2b96553458f.png)  
+![image](https://user-images.githubusercontent.com/69110090/93659987-88be7900-fa85-11ea-931c-c7d3cf3f5245.png)  
+
 
 
 [ComDlg32LastVisitedPidlMruView]
