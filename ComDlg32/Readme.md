@@ -35,7 +35,7 @@ HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\La
 - List of open/save files, path
 - OS: Windows 10 64Bit
 - Source: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSavePidlMRU
-- Item: Number, ext, Value, file name, path
+- Item: Number, Ext, Value, File name, Path
 - Screenshot
 
 ![image](https://user-images.githubusercontent.com/69110090/93660601-bc040680-fa8b-11ea-873c-e797fa3241e9.png)  
