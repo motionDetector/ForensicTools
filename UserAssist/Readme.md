@@ -7,4 +7,13 @@ HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\
 - Item: Number, Program path, Run time, Run count
 - Screenshot  
 
-![image](https://user-images.githubusercontent.com/69110090/94151565-85782280-feb5-11ea-8aff-972619165566.png)
+![image](https://user-images.githubusercontent.com/69110090/94151565-85782280-feb5-11ea-8aff-972619165566.png)  
+
+
+[Rot13Converter]
+
+- Encode or Decode string
+- OS: Windows 10 64Bit
+- Usage:  
+Rot13Converter.exe -e "hello World!"  
+Rot13Converter.exe -d "uryyb Jbeyq!"
