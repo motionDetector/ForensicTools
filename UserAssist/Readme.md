@@ -1,4 +1,4 @@
-[ComDlg32CidSizeView]
+[UserAssistView]
 
 - List of executed programs, run time, run count
 - OS: Windows 10 64Bit
