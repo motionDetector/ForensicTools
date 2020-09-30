@@ -2,7 +2,7 @@
 
 Extract Windows 10 Telemetry information(json string) from .rbs file  
 - OS: Windows 10 64Bit  
-- Source: %ProgramData%\Microsoft\Diagnosis\*.rbs
+- Source: %ProgramData%\Microsoft\Diagnosis\\*.rbs
 - Usage: Input .rbs file or folder
 WinTelemetryExtractor -f Events_Normal.rbs  
 WinTelemetryExtractor -d C:\rbsFileFolder
