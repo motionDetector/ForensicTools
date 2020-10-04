@@ -3,7 +3,9 @@
 View Installed Application of system  
 
 - OS: Windows 10 64Bit
-- Source: %ProgramData%\Microsoft\Diagnosis\*.rbs
+- Source: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall  
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall  
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall  
 - Usage:  
 InstalledAppView.exe //print info  
 InstalledAppView.exe -csv //export csv file  
