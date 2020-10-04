@@ -4,7 +4,7 @@ View Installed Application of system
 
 - OS: Windows 10 64Bit
 - Source: %ProgramData%\Microsoft\Diagnosis\*.rbs
-- Usage:
+- Usage:  
 InstalledAppView.exe //print info  
 InstalledAppView.exe -csv //export csv file  
 - Screenshot  
