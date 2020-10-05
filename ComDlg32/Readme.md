@@ -11,6 +11,7 @@ List of executed programs
   
   
 [ComDlg32FirstFolderView]  
+
 List of executed program path, default open/save path  
 - OS: Windows 10 64Bit
 - Source: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\FirstFolder
@@ -22,6 +23,7 @@ List of executed program path, default open/save path
 
 
 [ComDlg32LastVisitedPidlMruView]  
+
 List of executed program, Last vistited open/save path  
 - OS: Windows 10 64Bit
 - Source: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\LastVisitedPidlMRU  
@@ -33,6 +35,7 @@ HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\La
 
 
 [ComDlg32OpenSavePidlMruView]  
+
 List of open/save files, path  
 - OS: Windows 10 64Bit
 - Source: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSavePidlMRU
