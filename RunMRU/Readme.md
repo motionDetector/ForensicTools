@@ -1,6 +1,6 @@
 [RunMRUView]
 
-- List of executed commands
+List of executed commands  
 - OS: Windows 10 64Bit
 - Source: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RunMRU  
 - Item: Number, Commands, Value  
