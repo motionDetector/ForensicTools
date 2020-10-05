@@ -1,4 +1,5 @@
 [ComDlg32CidSizeView]  
+
 List of executed programs  
 - OS: Windows 10 64Bit
 - Source: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\CIDSizeMRU
