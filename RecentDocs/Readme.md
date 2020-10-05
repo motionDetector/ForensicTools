@@ -1,6 +1,6 @@
-[RecentDocsView]
+[RecentDocsView]  
 
-- List of generated link file information
+List of generated link file information  
 - OS: Windows 10 64Bit
 - Source: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs
 - Item: Number, Target name, Link file name, Value
