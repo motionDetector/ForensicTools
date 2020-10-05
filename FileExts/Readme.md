@@ -1,6 +1,6 @@
-[FileExtsView]
+[FileExtsView]  
 
-- List of ext and OpenWith programs
+List of ext and OpenWith programs  
 - OS: Windows 10 64Bit
 - Source: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FileExts
 - Item: Number, Ext, Value, Program name
