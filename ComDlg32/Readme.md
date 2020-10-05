@@ -7,9 +7,7 @@ List of executed programs
 - Screenshot
 
 ![image](https://user-images.githubusercontent.com/69110090/93659780-f5387880-fa83-11ea-9b1c-8ca562d032fa.png)  
- 
-  
-  
+
 [ComDlg32FirstFolderView]  
 
 List of executed program path, default open/save path  
