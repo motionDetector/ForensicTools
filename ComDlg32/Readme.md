@@ -1,4 +1,4 @@
-[ComDlg32CidSizeView]
+[ComDlg32CidSizeView]  
 List of executed programs  
 - OS: Windows 10 64Bit
 - Source: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\CIDSizeMRU
@@ -9,7 +9,7 @@ List of executed programs
  
   
   
-[ComDlg32FirstFolderView]
+[ComDlg32FirstFolderView]  
 List of executed program path, default open/save path  
 - OS: Windows 10 64Bit
 - Source: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\FirstFolder
@@ -20,7 +20,7 @@ List of executed program path, default open/save path
 
 
 
-[ComDlg32LastVisitedPidlMruView]
+[ComDlg32LastVisitedPidlMruView]  
 List of executed program, Last vistited open/save path  
 - OS: Windows 10 64Bit
 - Source: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\LastVisitedPidlMRU  
@@ -31,7 +31,7 @@ HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\La
 ![image](https://user-images.githubusercontent.com/69110090/93660365-118ae400-fa89-11ea-89a2-8207290cee62.png)  
 
 
-[ComDlg32OpenSavePidlMruView]
+[ComDlg32OpenSavePidlMruView]  
 List of open/save files, path  
 - OS: Windows 10 64Bit
 - Source: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSavePidlMRU
