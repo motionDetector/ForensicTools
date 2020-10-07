@@ -3,8 +3,8 @@
 List of program information  
 
 - OS: Windows 10 64Bit
-- Source: HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\SHC  
-HKEY_LOCAL_MACHINE\\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\ARP  
+- Source: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\UFH\SHC  
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\UFH\ARP  
 - Item: Number, Program, Value
 - Screenshot  
 
