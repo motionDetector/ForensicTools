@@ -3,7 +3,7 @@
 Analyze Windows 10 Timeline history  
 
 - OS: Windows 10 64Bit
-- Source: %AppDataLocal%\ConnectedDevicesPlatform\\{UserName}\ActivitiesCache.db
+- Source: %LocalAppData%\ConnectedDevicesPlatform\\{UserName}\ActivitiesCache.db
 - Usage:  
 WinTimelineAnalyzer.exe -f ActivitiesCache.db  
 - Screenshot  
