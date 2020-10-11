@@ -1,6 +1,6 @@
 [OfficeRecentView]  
 
-- List of recent office files 
+List of recent office files 
 
 - OS: Windows 10 64Bit
 - Source: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\\*
