@@ -3,7 +3,7 @@
 List of recent adobe files  
 
 - OS: Windows 10 64Bit
-- Source: HHKEY_CURRENT_USER\SOFTWARE\Adobe\\*  
+- Source: HKEY_CURRENT_USER\SOFTWARE\Adobe\\*  
 Usage:  
 AdobeRecentView.exe //print info  
 AdobeRecentView.exe -csv //export csv file  
