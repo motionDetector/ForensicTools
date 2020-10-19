@@ -1,6 +1,6 @@
 [ChromeBookmarksView]  
 
-List of recent office files  
+List of Google Chrome Bookmark information
 
 - OS: Windows 10 64Bit  
 - Source: %LocalAppData%\Google\Chrome\User Data\Default\Bookmarks
