@@ -3,7 +3,7 @@
 List of executed programs  
 
 - OS: Windows 10 64Bit (**Need to Run as Administrator**)
-- Source: SYSTEM\CurrentControlSet\Services\bam\State\UserSettings\*  
+- Source: SYSTEM\CurrentControlSet\Services\bam\State\UserSettings\\*  
 - Usage:  
 BamView.exe //print info  
 BamView.exe -csv //export csv file  
