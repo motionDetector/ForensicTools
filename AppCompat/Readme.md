@@ -16,7 +16,9 @@ List of program path and mod time
 
 - OS: Windows 10 64Bit
 - Source: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\AppCompatCache    
-- Item: Number, Program path, Mod time
+- Usage:  
+`AppCompatCacheView.exe` //print results  
+`AppCompatCacheView.exe -csv` //export csv file  
 - Screenshot  
 
 ![image](https://user-images.githubusercontent.com/69110090/95340334-fb39b080-08ef-11eb-9908-82b9b71d6afa.png)
