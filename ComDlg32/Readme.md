@@ -27,7 +27,8 @@ List of executed program, Last vistited open/save path
 - OS: Windows 10 64Bit
 - Source: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\LastVisitedPidlMRU  
 HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\LastVisitedPidlMRULegacy
-- Item: Number, Program name, Value, Last vistited open/save path
+- Usage:  
+`ComDlg32LastVisitedPidlMruView.exe` //print info  
 - Screenshot
 
 ![image](https://user-images.githubusercontent.com/69110090/93660365-118ae400-fa89-11ea-89a2-8207290cee62.png)  
