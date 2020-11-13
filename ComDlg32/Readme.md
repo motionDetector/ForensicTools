@@ -13,7 +13,8 @@ List of executed programs
 List of executed program path, default open/save path  
 - OS: Windows 10 64Bit
 - Source: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\FirstFolder
-- Item: Number, Program path, Default open/save path, Value
+- Usage:  
+`ComDlg32FirstFolderView.exe` //print info  
 - Screenshot
 
 ![image](https://user-images.githubusercontent.com/69110090/93659987-88be7900-fa85-11ea-931c-c7d3cf3f5245.png)  
