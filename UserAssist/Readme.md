@@ -17,5 +17,5 @@ HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\
 Encode or Decode string  
 - OS: Windows 10 64Bit
 - Usage:  
-`Rot13Converter.exe -e "hello World!"  
-Rot13Converter.exe -d "uryyb Jbeyq!"`
+`Rot13Converter.exe -e "hello World!"`  
+`Rot13Converter.exe -d "uryyb Jbeyq!"`
