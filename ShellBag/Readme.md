@@ -6,7 +6,7 @@ List of accessed folders
 - Source: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\Shell\BagMRU  
 HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU  
 - Usage:  
-`ShellBagMruAnalyzer.exe` //print folders and last modified time(registry)  
+`ShellBagMruAnalyzer.exe` //print folders, last modified time(registry key), MFT entry  
 `ShellBagMruAnalyzer.exe -csv` //export csv file  
 - Screenshot  
 ![image](https://user-images.githubusercontent.com/69110090/99628429-82468080-2a79-11eb-8b9c-a8ce6fedb5d9.png)  
