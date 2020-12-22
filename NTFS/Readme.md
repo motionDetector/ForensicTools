@@ -22,4 +22,13 @@ Analyze $MFT of NTFS
 - Screenshot  
 ![image](https://user-images.githubusercontent.com/69110090/102706445-4fd8af00-42d5-11eb-869d-5bb1b7e4ed1d.png)  
 
+[LogFileExtractor]  
 
+Export $LogFile of NTFS  
+
+- OS: Windows 10 64Bit (**Need to Run as Administrator**)  
+- Source: $LogFile  
+- Usage: Input NTFS drive letter (ex. C:) and output path  
+`LogFileExtractor.exe -d C: -o C:\OutputFolder`  
+- Screenshot  
+![image](https://user-images.githubusercontent.com/69110090/102885199-52cecd80-4496-11eb-90dc-c75f996b16c6.png)  
