@@ -32,3 +32,15 @@ Export $LogFile of NTFS
 `LogFileExtractor.exe -d C: -o C:\OutputFolder`  
 - Screenshot  
 ![image](https://user-images.githubusercontent.com/69110090/102885199-52cecd80-4496-11eb-90dc-c75f996b16c6.png)  
+
+[UsnJournalExtractor]  
+
+Export $J($UsnJrnl) of NTFS  
+
+- OS: Windows 10 64Bit (**Need to Run as Administrator**)  
+- Source: $J  
+- Usage: Input NTFS drive letter (ex. C:) and output path  
+`UsnJournalExtractor.exe -d C: -o C:\OutputFolder`  
+- Screenshot  
+![image](https://user-images.githubusercontent.com/69110090/103439351-815f5c00-4c7f-11eb-82dc-0f38c44115d9.png)  
+
