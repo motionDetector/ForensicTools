@@ -38,7 +38,7 @@ Export $LogFile of NTFS
 Export $J($UsnJrnl) of NTFS  
 
 - OS: Windows 10 64Bit (**Need to Run as Administrator**)  
-- Sometimes it takes a long time to find a $J record.  
+- Sometimes it takes a long time to find a $J record  
 - Source: $J  
 - Usage: Input NTFS drive letter (ex. C:) and output path  
 `UsnJournalExtractor.exe -d C: -o C:\OutputFolder`  
