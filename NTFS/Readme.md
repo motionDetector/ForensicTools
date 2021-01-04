@@ -45,3 +45,16 @@ Export $J($UsnJrnl) of NTFS
 - Screenshot  
 ![image](https://user-images.githubusercontent.com/69110090/103439351-815f5c00-4c7f-11eb-82dc-0f38c44115d9.png)  
 
+[UsnJournalAnalyzer]  
+
+Analyze $J of NTFS  
+
+- OS: Windows 10 64Bit  
+- Source: $J   
+- Usage:  
+`UsnJournalAnalyzer.exe -f $J`  
+`UsnJournalAnalyzer.exe -f $J -local` //Time value is displayed in local time  
+- Screenshot  
+![image](https://user-images.githubusercontent.com/69110090/103553000-27190200-4ef0-11eb-871d-541a3e030bae.png)  
+
+
