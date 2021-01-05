@@ -55,6 +55,7 @@ Analyze $J of NTFS
 `UsnJournalAnalyzer.exe -f $J`  
 `UsnJournalAnalyzer.exe -f $J -local` //Time value is displayed in local time  
 - Screenshot  
-![image](https://user-images.githubusercontent.com/69110090/103553000-27190200-4ef0-11eb-871d-541a3e030bae.png)  
+![image](https://user-images.githubusercontent.com/69110090/103643250-b2999e00-4f97-11eb-8ec3-5d9eed311c01.png)  
+
 
 
