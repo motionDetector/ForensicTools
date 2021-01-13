@@ -18,7 +18,7 @@ List of Google Chrome downloads information
 - OS: Windows 10 64Bit  
 - Source: %LocalAppData%\Google\Chrome\User Data\Default\History  
 - Usage:  
-`ChromeDownloadsView.exe -f History`  //print info  
+`ChromeDownloadsView.exe -f History`  //print path and time
 `ChromeDownloadsView.exe -csv -f History`  //export csv file  
 `ChromeDownloadsView.exe -f History -local` //Time value is displayed in local time  
 - Screenshot  
@@ -31,7 +31,7 @@ List of Google Chrome history information
 - OS: Windows 10 64Bit  
 - Source: %LocalAppData%\Google\Chrome\User Data\Default\History  
 - Usage:  
-`ChromeHistoryView.exe -f History`  //print info  
+`ChromeHistoryView.exe -f History`  //print URL, title, time, count  
 `ChromeHistoryView.exe -csv -f History`  //export csv file  
 `ChromeHistoryView.exe -f History -local` //Time value is displayed in local time  
 - Screenshot  
