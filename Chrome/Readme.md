@@ -44,7 +44,7 @@ List of Google Chrome cookies information
 - OS: Windows 10 64Bit  
 - Source: %LocalAppData%\Google\Chrome\User Data\Default\Cookies  
 - Usage:  
-`ChromeCookiesView.exe -f Cookies`  //print created, name, value
+`ChromeCookiesView.exe -f Cookies`  //print created, name, value  
 `ChromeCookiesView.exe -csv -f Cookies`  //export csv file  
 `ChromeCookiesView.exe -f Cookies -local` //Time value is displayed in local time  
 - Screenshot  
