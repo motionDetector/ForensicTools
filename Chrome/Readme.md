@@ -36,3 +36,17 @@ List of Google Chrome history information
 `ChromeHistoryView.exe -f History -local` //Time value is displayed in local time  
 - Screenshot  
 ![image](https://user-images.githubusercontent.com/69110090/104464189-fe7ebf80-55f5-11eb-8374-8e6d9fc1112a.png)  
+
+[ChromeCookiesView]  
+
+List of Google Chrome cookies information  
+
+- OS: Windows 10 64Bit  
+- Source: %LocalAppData%\Google\Chrome\User Data\Default\Cookies  
+- Usage:  
+`ChromeCookiesView.exe -f Cookies`  //print created, name, value
+`ChromeCookiesView.exe -csv -f Cookies`  //export csv file  
+`ChromeCookiesView.exe -f Cookies -local` //Time value is displayed in local time  
+- Screenshot  
+![image](https://user-images.githubusercontent.com/69110090/104598508-0011bb80-56ba-11eb-83ef-1eab2f1444da.png)  
+
