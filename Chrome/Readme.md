@@ -57,7 +57,7 @@ List of Google Chrome login information
 - OS: Windows 10 64Bit  
 - Source: %LocalAppData%\Google\Chrome\User Data\Default\Login Data  
 - Usage:  
-`ChromeLoginDataView.exe -f "Login Data"`  //print url, created, id, pw(only local system)  
+`ChromeLoginDataView.exe -f "Login Data"`  //print url, created, id, pw  
 `ChromeLoginDataView.exe -csv -f "Login Data"`  //export csv file  
 `ChromeLoginDataView.exe -f "Login Data" -local` //Time value is displayed in local time  
 - Screenshot  
