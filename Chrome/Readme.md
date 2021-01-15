@@ -59,6 +59,6 @@ List of Google Chrome login information
 - Usage:  
 `ChromeLoginDataView.exe -f "Login Data"`  //print url, created, id, pw(only local system)  
 `ChromeLoginDataView.exe -csv -f "Login Data"`  //export csv file  
-`ChromeLoginDataView.exe -f Login "Data -local"` //Time value is displayed in local time  
+`ChromeLoginDataView.exe -f "Login Data" -local` //Time value is displayed in local time  
 - Screenshot  
 ![image](https://user-images.githubusercontent.com/69110090/104741564-bc3bb680-578c-11eb-83e6-fd7c1493d320.png)  
