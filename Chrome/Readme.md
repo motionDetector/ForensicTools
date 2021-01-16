@@ -62,3 +62,16 @@ List of Google Chrome login information
 `ChromeLoginDataView.exe -f "Login Data" -local` //Time value is displayed in local time  
 - Screenshot  
 ![image](https://user-images.githubusercontent.com/69110090/104741564-bc3bb680-578c-11eb-83e6-fd7c1493d320.png)  
+
+[ChromeMediaHistoryView]  
+
+List of Google Chrome media history information  
+
+- OS: Windows 10 64Bit  
+- Source: %LocalAppData%\Google\Chrome\User Data\Default\Media History  
+- Usage:  
+`ChromeMediaHistoryView.exe -f "Media History "`  //print url, title, updated  
+`ChromeMediaHistoryView.exe -csv -f "Media History "`  //export csv file  
+`ChromeMediaHistoryView.exe -f "Media History " -local` //Time value is displayed in local time  
+- Screenshot  
+![image](https://user-images.githubusercontent.com/69110090/104807382-01f68e80-5822-11eb-8873-21787027274f.png)  
