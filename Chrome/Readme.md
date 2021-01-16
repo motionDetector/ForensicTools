@@ -70,8 +70,22 @@ List of Google Chrome media history information
 - OS: Windows 10 64Bit  
 - Source: %LocalAppData%\Google\Chrome\User Data\Default\Media History  
 - Usage:  
-`ChromeMediaHistoryView.exe -f "Media History "`  //print url, title, updated  
-`ChromeMediaHistoryView.exe -csv -f "Media History "`  //export csv file  
-`ChromeMediaHistoryView.exe -f "Media History " -local` //Time value is displayed in local time  
+`ChromeMediaHistoryView.exe -f "Media History"`  //print url, title, updated  
+`ChromeMediaHistoryView.exe -csv -f "Media History"`  //export csv file  
+`ChromeMediaHistoryView.exe -f "Media History" -local` //Time value is displayed in local time  
 - Screenshot  
 ![image](https://user-images.githubusercontent.com/69110090/104807382-01f68e80-5822-11eb-8873-21787027274f.png)  
+
+[ChromeActionPredictorView]  
+
+List of Google Chrome network action predictor information  
+
+- OS: Windows 10 64Bit  
+- Source: %LocalAppData%\Google\Chrome\User Data\Default\Network Action Predictor  
+- Usage:  
+`ChromeActionPredictorView.exe -f "Network Action Predictor"`  //print text, url, hits  
+`ChromeActionPredictorView.exe -csv -f "Network Action Predictor"`  //export csv file  
+`ChromeActionPredictorView.exe -f "Network Action Predictor" -local` //Time value is displayed in local time  
+- Screenshot  
+![image](https://user-images.githubusercontent.com/69110090/104814837-3f740f80-5854-11eb-94d1-678ff89fb74c.png)  
+
