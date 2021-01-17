@@ -89,3 +89,16 @@ List of Google Chrome network action predictor information
 - Screenshot  
 ![image](https://user-images.githubusercontent.com/69110090/104814837-3f740f80-5854-11eb-94d1-678ff89fb74c.png)  
 
+[ChromeShortcutsView]  
+
+List of Google Chrome shortcuts information  
+
+- OS: Windows 10 64Bit  
+- Source: %LocalAppData%\Google\Chrome\User Data\Default\Shortcuts 
+- Usage:  
+`ChromeShortcutsView.exe -f Shortcuts`  //print text, fill into edit, url, lastAccessed
+`ChromeShortcutsView.exe -csv -f Shortcuts`  //export csv file  
+`ChromeShortcutsView.exe -f Shortcuts -local` //Time value is displayed in local time  
+- Screenshot  
+![image](https://user-images.githubusercontent.com/69110090/104833695-f6689d80-58dd-11eb-9a0e-f3ae064803be.png)  
+
