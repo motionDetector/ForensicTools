@@ -102,3 +102,17 @@ List of Google Chrome shortcuts information
 - Screenshot  
 ![image](https://user-images.githubusercontent.com/69110090/104833695-f6689d80-58dd-11eb-9a0e-f3ae064803be.png)  
 
+[ChromeAutoFillView]  
+
+List of Google Chrome autofill information  
+
+- OS: Windows 10 64Bit  
+- Source: %LocalAppData%\Google\Chrome\User Data\Default\Web Data  
+- Usage:  
+`ChromeAutoFillView.exe -f "Web Data"`  //print name, value, created, count    
+`ChromeAutoFillView.exe -csv -f "Web Data"`  //export csv file  
+`ChromeAutoFillView.exe -f "Web Data" -local` //Time value is displayed in local time  
+- Screenshot  
+![image](https://user-images.githubusercontent.com/69110090/104835260-ca9ee500-58e8-11eb-9fe5-6795a345d7b7.png)  
+
+
