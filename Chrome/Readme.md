@@ -122,9 +122,9 @@ List of Google Chrome cache information
 - OS: Windows 10 64Bit  
 - Source: %LocalAppData%\Google\Chrome\User Data\Default\Cache\data_n   
 - Usage:  
-`ChromeCacheView.exe -d C:\CacheFolder`  //analyze cache and export csv file 
-`ChromeCacheView.exe -d C:\CacheFolder -o C:\OutputFolder`  //export data files(excludes f_xxxxxx files)  
-`ChromeCacheView.exe -d C:\CacheFolder -local` //Time value is displayed in local time  
+`ChromeCacheView.exe -d C:\CacheFolder`  //analyze cache and export csv file  
+`ChromeCacheView.exe -d C:\CacheFolder -o C:\OutputFolder`  //export data files(excludes f_xxxxxx files)   
+`ChromeCacheView.exe -d C:\CacheFolder -local` //Time value is displayed in local time   
 - Screenshot  
 ![image](https://user-images.githubusercontent.com/69110090/105574377-7e9be680-5da7-11eb-8ac2-50077971199e.png)  
 
