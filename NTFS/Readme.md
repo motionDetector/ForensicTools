@@ -38,10 +38,10 @@ Export $LogFile of NTFS
 Analyze $LogFile of NTFS  
 
 - OS: Windows 10 64Bit  
-- Source: $LogFile
-- Usage:
-`LogFileAnalyzer.exe -f $LogFile`
-`LogFileAnalyzer.exe -f $LogFile -local` //Time value is displayed in local time
+- Source: $LogFile  
+- Usage:  
+`LogFileAnalyzer.exe -f $LogFile`  
+`LogFileAnalyzer.exe -f $LogFile -local` //Time value is displayed in local time  
 - Screenshot  
 ![image](https://user-images.githubusercontent.com/69110090/106350557-7f89c680-6319-11eb-9278-9c635b91a5b8.png)  
 
