@@ -77,8 +77,8 @@ Analyze $I30 of NTFS
 - OS: Windows 10 64Bit  
 - Source: $I30   
 - Usage:  
-`IndexAnalyzer.exe -f $J`  
-`IndexAnalyzer.exe -f $J -local` //Time value is displayed in local time  
+`IndexAnalyzer.exe -f $I30`  
+`IndexAnalyzer.exe -f $I30 -local` //Time value is displayed in local time  
 - Screenshot  
 ![image](https://user-images.githubusercontent.com/69110090/107788952-54c95480-6d94-11eb-8caa-139a605ae3e0.png)  
   
