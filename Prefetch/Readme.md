@@ -3,7 +3,7 @@
 Decompress prefetch file(.pf) that compressed as Xpress Huffman Algorithm  
 
 - OS: Windows 10 64Bit  
-- Source: C:\Windows\Prefetch\*.pf  
+- Source: C:\Windows\Prefetch\\*.pf  
 - Usage:  
 `PrefetchDecompressor.exe -f HELLOWORLD.EXE-AB22E9A6.pf`  
 
