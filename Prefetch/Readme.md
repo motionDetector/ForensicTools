@@ -10,7 +10,7 @@ Decompress prefetch file(.pf) that compressed as Xpress Huffman Algorithm
 - Screenshot  
 ![image](https://user-images.githubusercontent.com/69110090/108587323-59929780-7396-11eb-9cea-d23073db3340.png)  
 
-[PrefetchDecompressor]  
+[PrefetchAnalyzer]  
 
 Analyze prefetch files(.pf) 
 
