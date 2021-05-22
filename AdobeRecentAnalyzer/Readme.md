@@ -1,6 +1,6 @@
 [AdobeRecentAnalyzer]  
 
-List of executed programs  
+List of Adobe files  
 
 - OS: Windows 10 64Bit  
 - Source: %UserProfile%\NTUSER.DAT    
