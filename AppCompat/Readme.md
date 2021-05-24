@@ -12,15 +12,14 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags
 
 ![image](https://user-images.githubusercontent.com/69110090/95338643-1d323380-08ee-11eb-8eea-1bb011ccdcd4.png)   
 
-[AppCompatCacheView]
+[AppCompatCacheAnalyzer]  
 
-List of program path and mod time
+List of program path and mod time  
 
-- OS: Windows 10 64Bit
-- Source: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\AppCompatCache    
+- OS: Windows 10 64Bit  
+- Source: %SystemRoot%\System32\config\SYSTEM  
 - Usage:  
-`AppCompatCacheView.exe` //print results  
-`AppCompatCacheView.exe -csv` //export csv file  
+`AppCompatCacheAnalyzer.exe -f SYSTEM` //Analyze a file  
+`AppCompatCacheAnalyzer.exe -f SYSTEM -local` //Time value is displayed in local time  
 - Screenshot  
-
-![image](https://user-images.githubusercontent.com/69110090/95340334-fb39b080-08ef-11eb-9908-82b9b71d6afa.png)
+![image](https://user-images.githubusercontent.com/69110090/119341433-b6238c80-bcce-11eb-9d5b-80d5a286edec.png)  
