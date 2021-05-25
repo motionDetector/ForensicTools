@@ -1,16 +1,18 @@
-[AppCompatFlagsView]
+[AppCompatFlagsAnalyzer]  
 
-List of program path
+List of program path  
 
-- OS: Windows 10 64Bit
-- Source: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags  
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags  
+- OS: Windows 10 64Bit  
+- Source: %UserProfile%\NTUSER.DAT   
+%SystemRoot%\System32\config\SOFTWARE  
 - Usage:  
-`AppCompatFlagsView.exe` //print results  
-`AppCompatFlagsView.exe -csv` //export csv file  
+`AppCompatFlagsAnalyzer.exe -f NTUSER.DAT` //Analyze a file   
+`AppCompatFlagsAnalyzer.exe -f SOFTWARE` //Analyze a file    
+`AppCompatFlagsAnalyzer.exe -d RegistryFolder` //Analyze folder that contains NTUSER.DAT, SOFTWARE  
+`AppCompatFlagsAnalyzer.exe -f NTUSER.DAT -local` //Time value is displayed in local time   
 - Screenshot  
+![image](https://user-images.githubusercontent.com/69110090/119479914-17f5fc00-bd8c-11eb-8c4e-1a9a713cc4be.png)  
 
-![image](https://user-images.githubusercontent.com/69110090/95338643-1d323380-08ee-11eb-8eea-1bb011ccdcd4.png)   
 
 [AppCompatCacheAnalyzer]  
 
