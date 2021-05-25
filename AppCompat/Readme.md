@@ -1,6 +1,6 @@
 [AppCompatFlagsAnalyzer]  
 
-List of program path  
+List of executed programs    
 
 - OS: Windows 10 64Bit  
 - Source: %UserProfile%\NTUSER.DAT   
@@ -16,7 +16,7 @@ List of program path
 
 [AppCompatCacheAnalyzer]  
 
-List of program path and mod time  
+List of executed programs   
 
 - OS: Windows 10 64Bit  
 - Source: %SystemRoot%\System32\config\SYSTEM  
