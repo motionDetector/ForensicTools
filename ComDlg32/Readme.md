@@ -1,6 +1,6 @@
 [ComDlg32Analyzer]  
 
-List of executed programs  
+List of executed programs, referenced files and folder  
 
 - OS: Windows 10 64Bit  
 - Source: %UserProfile%\NTUSER.DAT  
