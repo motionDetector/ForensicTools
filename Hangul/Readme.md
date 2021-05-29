@@ -1,15 +1,16 @@
-[HangulRecentView]  
+[HangulRecentAnalyzer]  
 
 List of recent hangul files  
 
 - OS: Windows 10 64Bit  
-- Source: HKEY_CURRENT_USER\SOFTWARE\Hnc\\*  
+- Source: %UserProfile%\NTUSER.DAT  
 - Usage:  
-`HangulRecentView.exe` //print info  
-`HangulRecentView.exe -csv` //export csv file  
+`HangulRecentAnalyzer.exe -f NTUSER.DAT` ////Analyze a file  
+`HangulRecentAnalyzer.exe -f NTUSER.DAT -local` //Time value is displayed in local time  
 - Screenshot  
+![image](https://user-images.githubusercontent.com/69110090/120059990-049aa780-c090-11eb-83fe-d68a196de3a3.png)  
 
-![image](https://user-images.githubusercontent.com/69110090/96264939-c7514000-0fff-11eb-9324-bfb27274bbc9.png)  
+
 
 
 [HangulMetaView]  
