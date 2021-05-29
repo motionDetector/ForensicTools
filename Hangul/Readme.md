@@ -5,7 +5,7 @@ List of recent hangul files
 - OS: Windows 10 64Bit  
 - Source: %UserProfile%\NTUSER.DAT  
 - Usage:  
-`HangulRecentAnalyzer.exe -f NTUSER.DAT` ////Analyze a file  
+`HangulRecentAnalyzer.exe -f NTUSER.DAT` //Analyze a file  
 `HangulRecentAnalyzer.exe -f NTUSER.DAT -local` //Time value is displayed in local time  
 - Screenshot  
 ![image](https://user-images.githubusercontent.com/69110090/120059990-049aa780-c090-11eb-83fe-d68a196de3a3.png)  
