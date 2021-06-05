@@ -1,6 +1,6 @@
 [RecentDocsAnalyzer]  
 
-List of recent apps and items  
+List of recent referenced files and folders   
 
 - OS: Windows 10 64Bit  
 - Source: %UserProfile%\NTUSER.DAT  
