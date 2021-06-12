@@ -2,14 +2,17 @@
 
 List of accessed folders  
 
-- OS: Windows 10 64Bit
-- Source: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\Shell\BagMRU  
-HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU  
+- OS: Windows 10 64Bit  
+- Source: %UserProfile%\NTUSER.DAT  
+%LocalAppData%\Microsoft\Windows\UsrClass.dat  
 - Usage:  
-`ShellBagMruAnalyzer.exe` //print folders, last modified time(registry key), MFT entry  
-`ShellBagMruAnalyzer.exe -csv` //export csv file  
+`ShellBagMruAnalyzer.exe -f UsrClass.dat` //Analyze a file  
+`ShellBagMruAnalyzer.exe -f NTUSER.DAT` //Analyze a file  
+`ShellBagMruAnalyzer.exe -d RegistryFolder` //Analyze folder that contains NTUSER.DAT, UsrClass.dat  
+`ShellBagMruAnalyzer.exe -f NTUSER.DAT -local` //Time value is displayed in local time  
 - Screenshot  
-![image](https://user-images.githubusercontent.com/69110090/99628429-82468080-2a79-11eb-8b9c-a8ce6fedb5d9.png)  
+![image](https://user-images.githubusercontent.com/69110090/121765725-0a13e980-cb88-11eb-8daf-8a6105a19b42.png)  
+
                       
                           
    
