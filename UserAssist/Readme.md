@@ -1,4 +1,4 @@
-[UserAssistView]  
+[UserAssistAnalyzer]  
 
 List of executed programs, run time, run count  
 
