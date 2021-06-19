@@ -16,14 +16,14 @@ List of accessed folders
                       
                           
    
-[ShellBagsDesktopView]  
+[ShellBagsDesktopAnalyzer]  
 
-List of folders and fildes in Desktop folder  
+List of folders and fildes in Desktop    
 
 - OS: Windows 10 64Bit  
-- Source: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\Shell\Bags\1\Desktop  
+- Source: %UserProfile%\NTUSER.DAT  
 - Usage:  
-`ShellBagsDesktopView.exe` //print info  
-`ShellBagsDesktopView.exe -csv` //export csv file  
+`ShellBagsDesktopAnalyzer.exe -f NTUSER.DAT` //Analyze a file  
+`ShellBagsDesktopAnalyzer.exe -f NTUSER.DAT -local` //Time value is displayed in local time  
 - Screenshot  
-![image](https://user-images.githubusercontent.com/69110090/99638835-2fc19000-2a8a-11eb-8d88-a1100134cf3d.png)
+![image](https://user-images.githubusercontent.com/69110090/122631272-9cc30400-d105-11eb-9409-ae6740f8bc38.png)  
