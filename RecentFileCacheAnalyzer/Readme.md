@@ -7,4 +7,4 @@ List of executed programs
 - Usage:  
 `RecentFileCacheAnalyzer.exe -f RecentFileCache.bcf` //Analyze a file  
 - Screenshot  
-- ![image](https://user-images.githubusercontent.com/69110090/122632142-c717c000-d10b-11eb-8a38-07d0f1bc7bbd.png)  
+![image](https://user-images.githubusercontent.com/69110090/122632142-c717c000-d10b-11eb-8a38-07d0f1bc7bbd.png)  
