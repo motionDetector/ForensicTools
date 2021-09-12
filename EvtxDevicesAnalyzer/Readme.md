@@ -10,7 +10,7 @@ Microsoft-Windows-Ntfs%4Operational.evtx
 Microsoft-Windows-Kernel-PnP%4Configuration  
 Microsoft-Windows-DriverFrameworks-UserMode%4Operational.evtx  
 - Usage:  
-`EvtxDevicesAnalyzer.exe -f Microsoft-Windows-Partition%4Diagnostic.evtx` //Analyze a file 
+`EvtxDevicesAnalyzer.exe -f Microsoft-Windows-Partition%4Diagnostic.evtx` //Analyze a file  
 `EvtxDevicesAnalyzer.exe -d EventlogFolder` //Analyze a files  
 `EvtxDevicesAnalyzer.exe -f Microsoft-Windows-Partition%4Diagnostic.evtx -local` //Time value is displayed in local time  
 - Screenshot  
