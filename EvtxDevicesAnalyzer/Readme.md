@@ -3,7 +3,7 @@
 List of information related to devices   
 
 - OS: Windows 10 64Bit  
-- Source: C:\Windows\System32\winevt\*.evtx  
+- Source: C:\Windows\System32\winevt\\*.evtx  
 - Supported event log:  
 Microsoft-Windows-Partition%4Diagnostic.evtx  
 Microsoft-Windows-Ntfs%4Operational.evtx  
