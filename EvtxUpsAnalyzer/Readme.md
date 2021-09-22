@@ -1,6 +1,6 @@
 [EvtxUpsAnalyzer]  
 
-List of information related to security     
+List of information related to logon and logoff       
 
 - OS: Windows 10 64Bit  
 - Source: C:\Windows\System32\winevt\Microsoft-Windows-ApplicationResourceManagementSystem%4Operational.evtx  
