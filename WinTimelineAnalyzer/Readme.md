@@ -1,6 +1,6 @@
 [WinTimelineAnalyzer]  
 
-Analyze Windows 10 Timeline history  
+List of Windows 10 Timeline history  
 
 - OS: Windows 10 64Bit  
 - Source: %LocalAppData%\ConnectedDevicesPlatform\\{UserName}\ActivitiesCache.db  
