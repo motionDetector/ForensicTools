@@ -51,16 +51,16 @@ List of Google Chrome login information
 - Screenshot  
 ![image](https://user-images.githubusercontent.com/69110090/104741564-bc3bb680-578c-11eb-83e6-fd7c1493d320.png)  
 
-[ChromeMediaHistoryView]  
+[ChromeMediaHistoryAnalyzer]  
 
-List of Google Chrome media history information  
+List of Google Chrome media history information    
 
 - OS: Windows 10 64Bit  
 - Source: %LocalAppData%\Google\Chrome\User Data\Default\Media History  
 - Usage:  
-`ChromeMediaHistoryView.exe -f "Media History"`  //print url, title, updated  
-`ChromeMediaHistoryView.exe -csv -f "Media History"`  //export csv file  
-`ChromeMediaHistoryView.exe -f "Media History" -local` //Time value is displayed in local time  
+`ChromeMediaHistoryAnalyzer.exe -f "Media History"` //Analyze  
+`ChromeMediaHistoryAnalyzer.exe -f "Media History" -local` //Time value is displayed in local time   
+`ChromeMediaHistoryAnalyzer.exe -v "Media History" -url https://www.youtube.com/watch?v=kvYN7GbquF8` //Print all last updated time of URL  
 - Screenshot  
 ![image](https://user-images.githubusercontent.com/69110090/104807382-01f68e80-5822-11eb-8873-21787027274f.png)  
 
