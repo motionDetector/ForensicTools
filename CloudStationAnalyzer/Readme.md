@@ -3,7 +3,7 @@
 List of Cloud Station(Synology) sync history  
 
 - OS: Windows 10 64Bit  
-- Source: history.sqlite  
+- Source: %LocalAppdata%\CloudStation\data\db\history.sqlite  
 - Usage:  
 `CloudStationAnalyzer.exe -f history.sqlite` //Analyze a file  
 `CloudStationAnalyzer.exe -f history.sqlite -local` //Time value is displayed in local time  
